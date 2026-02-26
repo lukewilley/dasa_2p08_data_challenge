@@ -1,4 +1,4 @@
-# dasa_2p08_data_challenge
+# COSC 2P08 Data Challenge
 #  Gym Member Attendance Analysis
 
 ##  Project Overview
@@ -26,10 +26,10 @@ The dataset includes:
 
 The following preprocessing steps were performed:
 
-- Missing value detection and filling with the mean
-- Data type corrections (numeric conversions)
-- Removal of invalid records (negative duration, calories, age)
+- Missing value detection and filling in missing values with the mean
+- Data consistency with date formatting (mm/dd/yyyy to yyyy-mm-dd)
 - Age grouping for demographic analysis
+- Logically ordered categories for applicable columns
 
 ---
 
