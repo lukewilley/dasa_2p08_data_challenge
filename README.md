@@ -11,13 +11,15 @@ The analysis answers six key analytical questions using Python (Pandas, Matplotl
 ##  Dataset Description
 
 The dataset includes:
+- VisitID
+- MemberID
+- Date
 - TimeOfDay
 - WorkoutDuration (minutes)
-- CaloriesBurned
 - MembershipType
+- AgeGroup
 - WorkoutType
-- Age
-- VisitFrequency
+- CaloriesBurned
 - DayOfWeek
 
 ---
@@ -46,12 +48,12 @@ The following preprocessing steps were performed:
 
 ##  Key Findings
 
-- Identified peak workout time by duration.
-- Determined most engaged membership type.
-- Found highest calorie-burning workout.
-- Identified most active age demographic.
-- Established correlation between duration and calories burned.
-- Determined most active day of the week.
+- Identified peak workout time by duration is morning.
+- Determined most frequently visited membership type is Basic.
+- Found highest calorie-burning workout is weights.
+- Identified most active age demographic is 26-35.
+- Established correlation between workout duration and calories burned is very weak (r=-0.0286).
+- Determined most active day of the week is Thursday.
 
 ---
 
@@ -66,7 +68,5 @@ The following preprocessing steps were performed:
 ---
 
 ## ▶ How to Run
-
-```bash
-pip install pandas numpy matplotlib seaborn
-python gym_analysis.py
+- Open data_challenge.ipynb on git repository
+- Open in Colab
