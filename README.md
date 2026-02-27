@@ -10,7 +10,7 @@ The analysis answers six key analytical questions using Python (Pandas, Matplotl
 
 ##  Dataset Description
 
-The dataset includes:
+The dataset intially includes:
 - VisitID
 - MemberID
 - Date
@@ -20,6 +20,8 @@ The dataset includes:
 - AgeGroup
 - WorkoutType
 - CaloriesBurned
+
+And added the column to answer question 6:
 - DayOfWeek
 
 ---
