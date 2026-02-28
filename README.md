@@ -2,7 +2,7 @@
 #  Gym Member Attendance Analysis
 
 ##  Project Overview
-This project analyzes gym attendance data from `team05_gym.csv` to uncover usage patterns, demographic insights, and workout performance trends.
+This project analyzes gym attendance data from `team05_gym.csv` to uncover gym usage patterns for the year of 2023, demographic insights, and workout performance trends.
 
 The analysis answers six key analytical questions using Python (Pandas, Matplotlib, Seaborn).
 
@@ -30,7 +30,7 @@ And added the column to answer question 6:
 
 The following preprocessing steps were performed:
 
-- Missing value detection and filling in missing values with the mean
+- Missing value detection and filling in missing values with the median
 - Data consistency with date formatting (mm/dd/yyyy to yyyy-mm-dd)
 - Age grouping for demographic analysis
 - Logically ordered categories for applicable columns
